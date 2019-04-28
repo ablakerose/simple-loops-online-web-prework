@@ -1,10 +1,10 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-  number_of_times +=1
+  number_of_times -=1
   loop do
     puts "Welcome to Flatiron School's Web Development Course!"
-    break if number_of_times ==7
+    break if number_of_times == 0
   end
 end
   # Code your solution here using the "loop" keyword to puts out the below phrase
